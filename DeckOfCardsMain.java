@@ -5,7 +5,7 @@ public class DeckOfCardsMain {
 		/*
 	        In this I have created an object of DeckOfCardsGame class and just calling the method through object.
 		 */
-		DeckOfCardsGame deckOfCardsGame = new DeckOfCardsGame();
+		DeckOfCards deckOfCardsGame = new DeckOfCards();
 		deckOfCardsGame.welcome();
 		deckOfCardsGame.deckOfCards();
 		deckOfCardsGame.noOfPlayers();
