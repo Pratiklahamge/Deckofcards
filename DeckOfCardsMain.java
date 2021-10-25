@@ -2,10 +2,12 @@ package com.bridgelabz.workshop2;
 
 public class DeckOfCardsMain {
 	public static void main(String[] args) {
-		DeckOfCards deckOfCardsGame = new DeckOfCards();
+		/*
+        In this I have created an object of DeckOfCardsGame class and just calling the method through object.
+		 */
+		DeckOfCardsGame deckOfCardsGame = new DeckOfCardsGame();
 		deckOfCardsGame.welcome();
 		deckOfCardsGame.deckOfCards();
+		deckOfCardsGame.noOfPlayers();
 	}
 }
-
-
